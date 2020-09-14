@@ -8,7 +8,7 @@ def print_grid(grid):
     print(9 * "-")
 
 
-# return the list with empy spots:
+# return the list with empty spots:
 def list_empty_spots(grid):
     indeksy_pustych_w_stringu = []
     for i in range(0, len(grid), 1):
